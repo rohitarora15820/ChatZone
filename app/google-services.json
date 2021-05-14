@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "960447904389",
+    "project_id": "chat-zone-1bcd2",
+    "storage_bucket": "chat-zone-1bcd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960447904389:android:21293a8e5d0db40d1387ec",
+        "android_client_info": {
+          "package_name": "com.rohit.chatzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960447904389-orrnqjun7gf9sibte9mdopf4aa08i031.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rohit.chatzone",
+            "certificate_hash": "a78c09d986387dc52e3966233e715b4fedb80dfd"
+          }
+        },
+        {
+          "client_id": "960447904389-jskgadaoe5ehedb89tfgqahu0k4ag12n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDuIlWPWjuvac8JnnNYDTW5Kuuwdeav2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960447904389-jskgadaoe5ehedb89tfgqahu0k4ag12n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

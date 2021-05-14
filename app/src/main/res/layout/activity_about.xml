@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundTint="#fff"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/MenuStyle"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="1500dp"
+        android:layout_height="150dp"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:text="This is an internet based instant messaging application which provides the user to communicate with other users in a fast and convenient way. Both the devices must have an active internet connection for the communication. There are many other chat applications like WeChat, hike, WhatsApp, Telegram, Facebook messenger, Snap Chat, Line etc Using this application user can communicate with any user all over the world. In this application we are using Google firebase as the backend to store the data of the application such as messages, pictures, files and more. User has to register or sign-in through their respective mail id and can use the services. When the user sign-in to the application, user can search for another user where the communication is need to be done.
+"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/about"/>
+        <TextView
+            android:id="@+id/txt"
+            android:onClick="txtlink"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+            android:textColor="#5B941C"
+            android:text="For More Info Click Me"/></LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
